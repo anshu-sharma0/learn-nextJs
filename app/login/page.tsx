@@ -23,7 +23,7 @@ export default function LoginPage() {
         setCredentials({ username, password });
     }
 
-    return <div className="flex flex-col items-center justify-center min-h-screen bg-slate-800">
+    return <div className="flex flex-col items-center justify-center min-h-screen bg-white dark:bg-gray-950">
         <LoginForm action={action} />
         {credentials.username && <div>
             <p>Username: {credentials.username}</p>
